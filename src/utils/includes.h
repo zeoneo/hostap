@@ -22,8 +22,8 @@
 /* Include possible build time configuration before including anything else */
 #include "build_config.h"
 
-#ifdef __circle__
-#include "os_circle.h"
+#ifdef __rpi3b__
+#include "os_rpi3b.h"
 #else
 #include <stdlib.h>
 #include <stdio.h>

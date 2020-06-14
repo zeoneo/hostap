@@ -15,8 +15,8 @@
 #ifndef OS_H
 #define OS_H
 
-#ifdef __circle__
-#include "os_circle.h"
+#ifdef __rpi3b__
+#include "os_rpi3b.h"
 #endif
 
 typedef long os_time_t;
